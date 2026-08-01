@@ -34,10 +34,22 @@ h3,h4,p{
 .bottom-section{
     height: 45%;
     width: 100%;
+    overflow: hidden;
 }
 
 .bottom-section img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    animation: landing-page-animation 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+@keyframes landing-page-animation{
+    from{
+        scale: 1.8;
+    }
+    to{
+        scale:1
+    }
 }
