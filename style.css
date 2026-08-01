@@ -175,16 +175,15 @@ h3,h4,p{
 
 
 .list-div{
+    border-top: 2px black solid;
     height: 25%;
     width: 100%;
-    background-color: blue;
     display: flex;
 }
 
 .list-number{
     height: 100%;
     width: 55%;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content:left
@@ -193,12 +192,57 @@ h3,h4,p{
 .list-number h2{
     font-size: 13.7rem;
     font-weight: 400;
-    color: whitesmoke;
+    color: black;
     letter-spacing: -1.5rem;
 }
 
 .list-info{
     height: 100%;
     width: 45%;
-    background-color: black;
+    display: flex;
+    padding: 1rem 0rem;
+}
+
+
+.list-description{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.list-description p{
+    font-size: 1.3rem;
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
+
+.list-img{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.list-img img{
+    height: 100%;
+    width: 55%;
+    object-fit: cover;
+    transform: translateY(120%);
+    transition: transform 0.37s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+}
+
+.list-div:hover .list-img img{
+    transform: translateY(0%);
+}
+
+
+.list-div:hover {
+    background-color: #FD1C00;
+    color: whitesmoke;
 }
