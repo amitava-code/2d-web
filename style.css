@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1,h2,span{
+    font-family: "Google Sans", sans-serif;
+}
+
+
+h3,h4,p{
+    font-family: "Lato", sans-serif;
+}
+
+
+.landing-page{
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(34, 33, 33);
+    overflow: hidden;
+}
+
+.top-section{
+    height: 55%;
+    width: 100%;
+    background-color: #FD1C00;
+}
+
+.bottom-section{
+    height: 45%;
+    width: 100%;
+}
+
+.bottom-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
