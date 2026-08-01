@@ -164,3 +164,41 @@ h3,h4,p{
         scale:1
     }
 }
+
+
+.list-page{
+    height: 100vh;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    background-color: azure;
+}
+
+
+.list-div{
+    height: 25%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+.list-number{
+    height: 100%;
+    width: 55%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content:left
+}
+
+.list-number h2{
+    font-size: 13.7rem;
+    font-weight: 400;
+    color: whitesmoke;
+    letter-spacing: -1.5rem;
+}
+
+.list-info{
+    height: 100%;
+    width: 45%;
+    background-color: black;
+}
