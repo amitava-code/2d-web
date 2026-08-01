@@ -35,7 +35,7 @@ h3,h4,p{
     height: 35%;
     width: 100%;
     display: flex;
-    padding: 1rem 1.2rem;
+    padding: 0 1.2rem;
     
 }
 
@@ -46,6 +46,7 @@ h3,h4,p{
     flex-direction: column;
     gap: 0.3rem;
     color: whitesmoke;
+    padding: 2rem;
 }
 
 .nav-links{
@@ -54,20 +55,22 @@ h3,h4,p{
     display: flex;
     align-items: center;
     gap: 0.2rem;
+    animation: opacity 3s ease-out;
+    width: fit-content;
   
 }
 
 .nav-links::before{
     content: "";
     height: 10%;
-    width: 1%;
+    width: 1vw;
     top: 0;
     background-color: whitesmoke;
     transition: width 0.2s ease-out;
 }
 
 .nav-links:hover::before{
-    width: 4%;
+    width: 4vw;
     transform-origin: left;
 }
 
@@ -92,7 +95,7 @@ h3,h4,p{
     color: whitesmoke;
     margin-bottom: 2rem;
     width: 20ch;
-    animation: opacity 2s ease-out;
+    animation: opacity 3s ease-out;
 }
 
 
@@ -144,7 +147,12 @@ h3,h4,p{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: scale 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
     animation: landing-page-animation 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.bottom-section:hover img{
+    scale: 1.15;
 }
 
 
