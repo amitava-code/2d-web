@@ -34,6 +34,27 @@ h3,h4,p{
 .top-section nav{
     height: 35%;
     width: 100%;
+    display: flex;
+    padding: 1rem 1.2rem;
+    
+}
+
+.top-section nav .nav-left{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: whitesmoke;
+}
+
+.nav-links h3{
+    font-weight: 400;
+}
+
+.top-section nav .nav-right{
+    height: 100%;
+    width: 40%;
 }
 
 .top-section .content{
