@@ -82,6 +82,29 @@ h3,h4,p{
     width: 40%;
 }
 
+
+.nav-right{
+    padding: 2rem;
+}
+
+.nav-right p{
+    font-size: 1.1rem;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    width: 20ch;
+    animation: opacity 2s ease-out;
+}
+
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 .top-section .content{
     height: 65%;
     width: 100%;
