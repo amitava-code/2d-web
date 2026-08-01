@@ -41,6 +41,7 @@ h3,h4,p{
     width: 100%;
     display: flex;
     align-items: end;
+    overflow: hidden;
   
 }
 
@@ -49,6 +50,17 @@ h3,h4,p{
     color: whitesmoke;
     font-weight: 500;
     line-height: 0.9;
+    animation: landing-text-animation 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+@keyframes landing-text-animation{
+    from{
+        transform: translateY(120%);
+    }
+    to{
+        transform: translateY(0);
+    }
 }
 
 
