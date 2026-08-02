@@ -245,3 +245,35 @@ h3,h4,p{
     background-color: #FD1C00;
     color: whitesmoke;
 }
+
+.marquee-section{
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 1.5rem 0;
+
+}
+
+.marquee-track{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    animation: marquee-animation 8s linear infinite;
+}
+
+.marquee-track img{
+    height: 100%;
+    width: calc(100% / 5);
+    object-fit: cover;
+}
+
+@keyframes marquee-animation{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
