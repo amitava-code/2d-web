@@ -148,7 +148,7 @@ h3,h4,p{
     width: 100%;
     object-fit: cover;
     transition: scale 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
-    animation: landing-page-animation 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: landing-page-animation 7s ease-in-out;
 }
 
 .bottom-section:hover img{
@@ -192,7 +192,6 @@ h3,h4,p{
 .list-number h2{
     font-size: 13.7rem;
     font-weight: 400;
-    color: black;
     letter-spacing: -1.5rem;
 }
 
@@ -230,7 +229,7 @@ h3,h4,p{
 
 .list-img img{
     height: 100%;
-    width: 55%;
+    width: 45%;
     object-fit: cover;
     transform: translateY(120%);
     transition: transform 0.37s cubic-bezier(0.455, 0.03, 0.515, 0.955);
