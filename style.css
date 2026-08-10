@@ -28,7 +28,7 @@ h3,h4,p{
 .top-section{
     height: 55%;
     width: 100%;
-    background-color: #FD1C00;
+    background-color: #03051E;
 }
 
 .top-section nav{
@@ -170,7 +170,7 @@ h3,h4,p{
     height: 100vh;
     width: 100%;
     padding: 1rem 0.5rem;
-    background-color: azure;
+    background-color: #03051E ;
     margin-top: 45px;
 }
 
@@ -243,7 +243,7 @@ h3,h4,p{
 
 
 .list-div:hover {
-    background-color: #FD1C00;
+    background-color: #978D58;
     color: whitesmoke;
 }
 
